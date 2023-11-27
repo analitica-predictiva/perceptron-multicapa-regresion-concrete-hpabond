@@ -79,7 +79,7 @@ def pregunta_03():
         steps=[
             (
                 "minmaxscaler",
-                MinMaxScaler(feature_range=(0,1)),  
+                MinMaxScaler(),  
             ),
             (
                 "mlpregressor",
